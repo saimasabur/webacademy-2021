@@ -1,0 +1,15 @@
+body{
+  background-color: ivory;
+  color:darkred;
+}
+/*This adds a border.*/
+.wrapper{
+  border: 7px dotted darkred;
+  text-align: center;
+  padding: 12px 16px;
+}
+/*This adds a border to the buttons.*/
+button{
+  border: 4px dotted darkred;
+  text-align: center; 
+}

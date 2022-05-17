@@ -1,0 +1,33 @@
+*{
+  background-color: aliceblue;
+}
+#box{
+  background-color: ivory;
+  border: solid darkred 4px;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  left: 200px;
+}
+button{
+  color: ivory;
+  background-color: darkred;
+  position: relative;
+  left: 100px;
+}
+button:hover{
+  
+}
+.topnav{
+  background-color: antiquewhite;
+  overflow: hidden;
+  margin: 2;
+  width: 1350px;
+}
+.topnav a{
+  color: navy;
+  float: left;
+  display: block;
+  tezt-align: center;
+  padding: 14px 16px;
+}

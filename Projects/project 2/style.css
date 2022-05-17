@@ -1,0 +1,21 @@
+body{
+  background-color: ivory;
+  color:darkred;
+h1 {
+  color: darkred;
+  font-size: 40px;
+}
+h2 {
+  color: darkred;
+  font-size: 40px;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  display: block;
+  text-aligh: center;
+}

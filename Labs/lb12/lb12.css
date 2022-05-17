@@ -1,0 +1,63 @@
+/*The container <div> - needed to position the droptown content*/
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+/*Dropdown Content (Hidden by Default)*/
+.dropDownContent{
+display: none;
+position: absolute;
+background-color: cornsilk;
+min-width: 150px;
+box-shadow: 0px 8px 16px 0px rgba(255,25,0.5);
+z-index: 1;
+}
+.dropdown:hover .dropDownContent{
+  display: block;
+}
+/*Style the Dropdown Button*/
+.drpMenu{
+  background-color: darkred;
+  color: cornsilk;
+  padding: 16px;
+  marging: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/*Change the background color of the dropdown button when the dropdown button is shown*/
+.dropdown:hover .drpMenu{
+  background-color: ivory;
+  color: darkred;
+}
+/*Links inside the dropdown*/
+.dropdown a{
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none;
+}
+/*This CSS is responsible about hovering over the dropwdown button to display the links*/
+.dropdown:hover a{
+  display: block;
+  background-color: cornsilk;
+  color: darkred;
+  border: 0.1px solid white;
+}
+/*This CSS is responsible for the fonts and captions for your dropdown button*/
+.dropdown:hover a:hover{
+  color: navy;
+  background-color: antiquewhite;
+  border: 1px solide navy;
+  padding: 12px 16px;
+}
+.dropdown img{
+  border: 7px dotted darkred;
+}
+.caption{
+display: none;
+}
+.dropdown:hover img:hover .caption{
+  display: block;
+  color: darkred;
+  background-color: cornsilk;
+}

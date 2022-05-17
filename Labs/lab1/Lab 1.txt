@@ -1,0 +1,16 @@
+<!-- Doctype html-->
+<html>
+              <head>
+              <title> My First Webpage</title>
+              </head>
+              <body>
+                        <h1>Thomas A. Edison CTE HS</h>
+                        <h2>Web Development Academy</h2>
+                        <h3>10th Grade</h3>
+                        <h4> Lab 1 </h4>
+                        <h5> Intro to Hyper Text Markup Language</h5>
+                        <h6> By Saima Sabur</h6>
+                        <p> My name is Saima Sabur and I am 14 years old. My pronouns are she/her. I was born in Bangladesh and I came to America with my mom when I was 4-5 months old. My favorite color is red and my favorite animal is a polar bear. I like to eat sushi, french fries, and I like to drink milkshakes. I have to be here because my education is important to me and it's required. I like to read and watch movies and shows. I can only speak English and a little bit of Bangla.</p> 
+                        <p> The tag title means the title of the notes. The body is for a paragraph. Html is a webpage.</p> 
+              </body>
+</html>

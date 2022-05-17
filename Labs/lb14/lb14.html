@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lab #14</title>
+    <link rel="stylesheet" type="text/css" href="https://webacademy-2021.saimasabur.repl.co/main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    
+  </head>
+  <body>
+    <h1>TAEHS</h1>
+    <h2>Web Development Academy</h2>
+    <h3>10# Grade</h3>
+    <h4>Saima Sabur</h4>
+   <h2>Responsive Form</h2>
+    <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack in top of each other instead of next to each other.</p>
+  <div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" name="Saima" placeholder="Saima">
+        </label>
+      </div>
+  </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Your Name</label>
+        </div>
+          <div class="col-25">
+            <input type="text" id="lname" name="Sabur" placeholder="Your Name">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label> 
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value ="australia">Australia</option>
+            <option value ="canada">Canada</option>
+            <option value ="usa">United States of America</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px">
+          </textarea>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input tyle="submit" vlaue="Submit">
+      </div>
+      </form>
+  </div>
+  </body>
+</html>

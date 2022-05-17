@@ -1,0 +1,20 @@
+<!-- Doctype html-->
+<html>
+              <head>
+              <title> SMART Goals</title>
+              </head>
+              <body>
+                        <h1>Thomas A. Edison CTE HS</h>
+                        <h2>Web Development Academy</h2>
+                        <h3>10th Grade</h3>
+                        <h4> Lab 2 </h4>
+                        <h5> Image Tag & List</h5>
+                        <h6> By Saima Sabur</h6>
+                        <img src="me" width"100px">
+                        <ul>My SMART GOALS:
+                               <li> Goal 1 To learn more about using a computer</li>
+                               <li> Goal 2 To get good grades</li>
+                               <li> Goal 3 To educate myself about design and development</li>
+                        </ul>
+              </body>
+</html>

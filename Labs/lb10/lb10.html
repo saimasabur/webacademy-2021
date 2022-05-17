@@ -1,0 +1,67 @@
+<!--doctype html-->
+<html>
+<head>
+<title>Lab#10 Internal CSS</title>
+<link rel="shortcut icon" href=" skeleton.png" type="image/png">
+<style>
+  /*the * works as universal selector for CSS*/
+ *{
+   box-sizing: border-box;
+ }   
+ /*A CSS selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class)
+ */
+ /*any HTML tage can be a selector. For example */
+ body{
+   background-color:darkred;
+ }  
+ /*The class selector selects HTML elements with a specific class attribute. To select elements with a specific class; write (.) character, followed by the class name,*/
+ .header{
+
+ }
+ /*The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hashtag (#) character, followed by the id of the element. Example the CSS rule below will be applied to the HTML element with id="paral":*/ 
+ #demobox{
+   text-align: center;
+   color: navy;
+ }
+/*The grouping selector selects 11 the HTML elements with the same style definitions. Look at the following CSS code (the h1, h2, and p elements have the same style definitions). It will be better to group the selectors, seperate each selector with comma*/
+
+p,h1,h3{
+  color: ivory;
+}
+/*A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selector. Between a simple selector we can include a combinator. There are four different combinator. There are four different combinators in CSS: denecsant selector (space), shild selector (>), adjacent subling selector (+), and general sibling selector (~)*/
+.header h3{color:green;}
+</style>
+</head>
+<body>
+
+   <div class="topnav">
+  <a href="../Labs/lab1/Lab 1.html">Lab 1</a>
+  <a href="../Labs/lab2/Lab 2.html">Lab 2</a>
+  <a href="../Labs/lab3/lab3.html">Lab 3</a>
+  <a href="../Labs/lab4/lab4.html">Lab 4</a>
+  <a href="../Labs/lab5/lab5.html">Lab 5</a>
+  <a href="../Labs/lab6/lab6.html">Lab 6</a>
+  <a href="../Labs/lab7/lab7.html">Lab 7</a>
+  <a href="../Labs/lab8/lab8.html">Lab 8</a>
+  <a href="../Labs/lab9/lab9.html">Lab 9</a>
+  <a href="../Labs/lb10/lb10.html">Lab 10</a>
+  <a href="../Labs/lb11/lb11.html">Lab 11</a>
+  <a href="../Labs/lb12/lb12.html">Lab 12</a>
+  <a href="../Labs/lb13/lb13.html">Lab 13</a>
+  <a href="../Labs/lb14/lb14.html">Lab 14</a>
+  <a href="../Labs/lb15/lb15.html">Lab 15</a>
+  <a href="../Labs/lb16/lb16.html">Lab 16</a>
+  <a href="../Labs/lb17/lb17.html">Lab 17</a>
+  <a href="../Labs/lb18/lb18.html">Lab 18</a>
+  <a href="../Labs/lb19/lb19.html">Lab 19</a>
+  <a href="../Labs/lb20/lb20.html">Lab 20</a> 
+    </div>
+    <div class="header">
+  <h1>Thomas A. Edison</h1>
+  <h2>Web Design Acdemy</h2>
+  <h3>Lab 10 Internal CSS</h3>
+  <h4>Saima Sabur</h4>
+    </div>
+       
+      
+</body>

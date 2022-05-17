@@ -1,0 +1,43 @@
+p{
+  color: red;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+  color:darkred;
+}
+
+.topnav{
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+.topnav a{
+  color: darkred;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a:hover{
+  background-color:navy;
+  color: aliceblue; 
+}
+
+.header{
+  background-color: ivory;
+  padding: 20px;
+  text-align: center;
+  color: darkred;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
